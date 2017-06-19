@@ -1,0 +1,41 @@
+{
+  "name": "change-mat4-coordinate-system",
+  "version": "0.0.1",
+  "description": "Convert a 4x4 column major matrix from left handed to right handed coordinate system",
+  "main": "change-mat4-coordinate-system.js",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinedufn/change-mat4-coordinate-system.git"
+  },
+  "keywords": [
+    "mat4",
+    "matrix",
+    "coordinate",
+    "right",
+    "left",
+    "handed",
+    "system",
+    "switch",
+    "change",
+    "axis",
+    "blender"
+  ],
+  "author": "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chinedufn/change-mat4-coordinate-system/issues"
+  },
+  "homepage": "https://github.com/chinedufn/change-mat4-coordinate-system#readme",
+  "dependencies": {
+    "gl-mat3": "^1.0.0",
+    "gl-mat4": "^1.1.4",
+    "gl-quat": "^1.0.0"
+  },
+  "devDependencies": {
+    "gl-vec3": "^1.0.3",
+    "tape": "^4.6.3"
+  }
+}
