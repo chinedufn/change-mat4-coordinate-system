@@ -1,7 +1,7 @@
 change-mat4-coordinate-system [![npm version](https://badge.fury.io/js/change-mat4-coordinate-system.svg)](http://badge.fury.io/js/change-mat4-coordinate-system) [![Build Status](https://travis-ci.org/chinedufn/change-mat4-coordinate-system.svg?branch=master)](https://travis-ci.org/chinedufn/change-mat4-coordinate-system)
 ===============
 
-> Convert a 4x4 column major matrix from left handed to right handed coordinate system
+> Convert a 4x4 column major matrix from using a right handed to left handed coordinate system
 
 ## Background / Initial Motivation
 
