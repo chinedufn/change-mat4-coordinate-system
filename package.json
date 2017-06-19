@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "gl-vec3": "^1.0.3",
+    "standard": "^10.0.2",
     "tape": "^4.6.3"
   }
 }
