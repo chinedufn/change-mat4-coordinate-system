@@ -19,14 +19,14 @@ function rightToLeft (matrix4) {
 
   // Swap the rotation from right to left
   // by first converting it into a quaternion
-  var handRotation = mat3FromMat4([], matrix4)
-  var handRotationQuat = quatFromMat3([], handRotation)
+  var rotation = mat3FromMat4([], matrix4)
+  var rotationQuat = quatFromMat3([], rotation)
 
-  swap = handRotationQuat[2]
-  handRotationQuat[2] = -handRotationQuat[1]
-  handRotationQuat[1] = swap
+  swap = rotationQuat[2]
+  rotationQuat[2] = -rotationQuat[1]
+  rotationQuat[1] = swap
 
-  return mat4FromRotTrans([], handRotationQuat, [
+  return mat4FromRotTrans([], rotationQuat, [
     matrix4[12],
     matrix4[13],
     matrix4[14]
